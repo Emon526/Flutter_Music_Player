@@ -55,7 +55,6 @@ class Genres extends StatelessWidget {
               ),
             ),
           ),
-          const PlayingCard(songname: 'Believer', artistname: 'imagine Dragon'),
         ],
       ),
     );

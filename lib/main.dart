@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/services.dart';
@@ -6,6 +8,7 @@ import 'consts/styles.dart';
 import 'providers/theme_provider.dart';
 import 'screens/homescreen.dart';
 import 'screens/splashscreen.dart';
+import 'services/permission_prefrence.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -33,6 +36,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   ThemeProvider themeProvider = ThemeProvider();
   void checkCurrentTheme() async {
+    checkPermission();
     themeProvider.setTheme = await themeProvider.themePrefrences.getTheme();
   }
 
@@ -40,6 +44,14 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     checkCurrentTheme();
     super.initState();
+  }
+
+  void checkPermission() async {
+    final status = PermissionSettings.isPermit;
+
+    if (status == false) {
+      PermissionSettings.promptPermissionSetting();
+    }
   }
 
   @override

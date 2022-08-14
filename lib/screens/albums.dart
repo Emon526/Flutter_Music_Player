@@ -46,10 +46,6 @@ class Albums extends StatelessWidget {
               ),
             ),
           ),
-          const PlayingCard(
-            songname: 'Believer',
-            artistname: 'imagine Dragon',
-          ),
         ],
       ),
     );
