@@ -1,6 +1,7 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
+import 'package:musicplayer/widgets/playing.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/services.dart';
 
@@ -69,6 +70,9 @@ class _MyAppState extends State<MyApp> {
             title: 'Music Player',
             theme: Styles.themeData(themeProvider.getDarkTheme, context),
             home: const HomeScreen(),
+            // routes: {
+            //   // PlayingCard.routename :(context) => PlayingCard(song: song, advancedPlayer: advancedPlayer)
+            // },
           );
         },
       ),

@@ -8,10 +8,46 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "audio_session",
-      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/audio_session-0.1.10",
+      "name": "audioplayers",
+      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers-1.0.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "audioplayers_android",
+      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers_android-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "audioplayers_darwin",
+      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers_darwin-1.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "audioplayers_linux",
+      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers_linux-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "audioplayers_platform_interface",
+      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers_platform_interface-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "audioplayers_web",
+      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers_web-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "audioplayers_windows",
+      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/audioplayers_windows-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
     },
     {
       "name": "boolean_selector",
@@ -98,6 +134,18 @@
       "languageVersion": "2.17"
     },
     {
+      "name": "http",
+      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.14"
+    },
+    {
+      "name": "http_parser",
+      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "id3",
       "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/id3-1.0.2",
       "packageUri": "lib/",
@@ -108,24 +156,6 @@
       "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/js-0.6.4",
       "packageUri": "lib/",
       "languageVersion": "2.16"
-    },
-    {
-      "name": "just_audio",
-      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/just_audio-0.9.28",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "just_audio_platform_interface",
-      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/just_audio_platform_interface-4.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "just_audio_web",
-      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/just_audio_web-0.4.7",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
     },
     {
       "name": "lints",
@@ -278,12 +308,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "rxdart",
-      "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.27.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "shared_preferences",
       "rootUri": "file:///Users/asrafulislam/development/flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-2.0.15",
       "packageUri": "lib/",
@@ -410,7 +434,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2022-08-14T21:17:55.364672Z",
+  "generated": "2022-08-22T20:31:23.614062Z",
   "generator": "pub",
   "generatorVersion": "2.17.6"
 }

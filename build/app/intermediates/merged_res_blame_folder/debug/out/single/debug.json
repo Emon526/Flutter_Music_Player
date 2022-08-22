@@ -20,11 +20,11 @@
         "source": "/Users/asrafulislam/musicplayer/android/app/src/main/res/drawable/launch_background.xml"
     },
     {
-        "merged": "/Users/asrafulislam/musicplayer/build/app/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/asrafulislam/musicplayer/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
-    },
-    {
         "merged": "/Users/asrafulislam/musicplayer/build/app/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/asrafulislam/musicplayer/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/asrafulislam/musicplayer/build/app/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/asrafulislam/musicplayer/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:musicplayer/widgets/playing.dart';
 
 import '../widgets/drawer_widget.dart';
 import 'albums.dart';
