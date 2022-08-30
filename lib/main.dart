@@ -1,14 +1,11 @@
-import 'dart:developer';
-
 import 'package:flutter/material.dart';
-import 'package:musicplayer/widgets/playing.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/services.dart';
 
 import 'consts/styles.dart';
+import 'providers/audio_provider.dart';
 import 'providers/theme_provider.dart';
 import 'screens/homescreen.dart';
-import 'screens/splashscreen.dart';
 import 'services/permission_prefrence.dart';
 
 void main() {
@@ -62,6 +59,7 @@ class _MyAppState extends State<MyApp> {
         ChangeNotifierProvider(create: (_) {
           return themeProvider;
         }),
+        ChangeNotifierProvider(create: (_) => AudioProvider()),
       ],
       child: Consumer<ThemeProvider>(
         builder: (context, themeProvider, child) {

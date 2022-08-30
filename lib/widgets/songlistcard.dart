@@ -1,21 +1,17 @@
-import 'dart:developer';
-
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
-import 'package:musicplayer/widgets/playing.dart';
 import 'package:on_audio_query/on_audio_query.dart';
-
 import '../services/utils.dart';
 
 class SongListCard extends StatelessWidget {
-  final AudioPlayer function;
-  final bool isPlaying;
+  final Function function;
+  final AudioPlayer player;
   final SongModel song;
   const SongListCard({
     Key? key,
     required this.function,
-    required this.isPlaying,
     required this.song,
+    required this.player,
   }) : super(key: key);
 
   @override
@@ -23,16 +19,7 @@ class SongListCard extends StatelessWidget {
     final size = Utils(context).getScreenSize;
     return InkWell(
       onTap: () {
-        // function();
-        Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) =>
-                PlayingCard(song: song, advancedPlayer: function),
-          ),
-        );
-
-        log(song.toString());
+        function();
       },
       child: Material(
         color: Theme.of(context).cardColor,
@@ -53,7 +40,6 @@ class SongListCard extends StatelessWidget {
                     width: 10,
                   ),
                   SizedBox(
-                    // color: Colors.red,
                     width: size.width * 0.6,
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,

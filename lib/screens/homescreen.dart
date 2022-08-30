@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:musicplayer/widgets/playing.dart';
 
 import '../widgets/drawer_widget.dart';
 import 'albums.dart';
@@ -13,6 +12,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
+      initialIndex: 3,
       length: 5,
       child: Scaffold(
         appBar: AppBar(
